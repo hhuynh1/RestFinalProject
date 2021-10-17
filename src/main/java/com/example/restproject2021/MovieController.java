@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 public class MovieController {
     @Autowired
-    private MovieDAO movieDAO00 = new MovieDAO();
+    private MovieDAO movieDAO = new MovieDAO();
 
     // Returns a list of movies
     @RequestMapping(value="/movies", method= RequestMethod.GET)
